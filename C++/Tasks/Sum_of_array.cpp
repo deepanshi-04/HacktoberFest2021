@@ -16,7 +16,6 @@ int sum(int input[], int n) {
    return 0;
    else
    return(sum(input,n-1)+input[n-1]);
-
 }
 
 
